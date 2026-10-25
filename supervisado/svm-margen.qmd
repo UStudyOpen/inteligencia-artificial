@@ -1,6 +1,8 @@
 ---
 title: "Máquinas de vectores de soporte y máximo margen"
 description: "Geometría del clasificador lineal, SVM de margen duro y suave, dualidad y vectores de soporte."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

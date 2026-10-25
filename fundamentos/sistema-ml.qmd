@@ -1,6 +1,8 @@
 ---
 title: "Anatomía de un sistema de aprendizaje de máquina"
 description: "Datos, hipótesis, sesgo inductivo, pérdida, regularización y búsqueda."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

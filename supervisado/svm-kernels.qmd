@@ -1,6 +1,8 @@
 ---
 title: "Kernels y fronteras no lineales"
 description: "Transformaciones de características, kernel trick, kernel polinomial, RBF y selección de hiperparámetros."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

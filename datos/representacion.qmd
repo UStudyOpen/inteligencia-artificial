@@ -1,6 +1,8 @@
 ---
 title: "Representación de datos"
 description: "Características, etiquetas, identificadores, espacio de características y escalamiento."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

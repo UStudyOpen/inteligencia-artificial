@@ -1,72 +1,96 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
   resources:
-    - assets/**
-
+  # Exclude the historical published tree from resource discovery.
+  - '!docs/**'
+  - assets/css/visualizaciones.css
+  - assets/js/visualizaciones/aprendizaje-supervisado.js
+  - assets/js/visualizaciones/evaluacion-clasificadores.js
+  - .nojekyll
+  render:
+  - datos/generalizacion.qmd
+  - datos/representacion.qmd
+  - fundamentos/evaluacion-clasificadores.qmd
+  - fundamentos/ia-aprendizaje.qmd
+  - fundamentos/sistema-ml.qmd
+  - index.qmd
+  - refuerzo/fundamentos.qmd
+  - supervisado/arboles-decision.qmd
+  - supervisado/svm-kernels.qmd
+  - supervisado/svm-margen.qmd
+  - supervisado/svm-multiclase.qmd
+  post-render:
+  - python3 tests/post_render.py
 lang: es
 bibliography: references.bib
-
 website:
-  title: "Inteligencia Artificial I"
-  search: true
+  title: Inteligencia Artificial I
+  search:
+    location: navbar
+    type: overlay
   page-navigation: true
   back-to-top-navigation: true
   sidebar:
     style: docked
     collapse-level: 1
     contents:
-      - href: index.qmd
-        text: Inicio
-      - section: "Fundamentos"
-        contents:
-          - href: fundamentos/ia-aprendizaje.qmd
-            text: IA y aprendizaje de máquina
-          - href: fundamentos/sistema-ml.qmd
-            text: Anatomía de un sistema de ML
-          - href: fundamentos/evaluacion-clasificadores.qmd
-            text: Evaluación de clasificadores
-      - section: "Datos y generalización"
-        contents:
-          - href: datos/representacion.qmd
-            text: Representación de datos
-          - href: datos/generalizacion.qmd
-            text: Generalización y selección de modelos
-      - section: "Aprendizaje supervisado"
-        contents:
-          - href: supervisado/arboles-decision.qmd
-            text: Árboles de decisión
-          - href: supervisado/svm-margen.qmd
-            text: SVM y máximo margen
-          - href: supervisado/svm-kernels.qmd
-            text: Kernels y fronteras no lineales
-          - href: supervisado/svm-multiclase.qmd
-            text: SVM multiclase y Exemplar-SVM
-      - section: "Aprendizaje por refuerzo"
-        contents:
-          - href: refuerzo/fundamentos.qmd
-            text: Agentes, recompensas y políticas
+    - href: index.qmd
+      text: Inicio
+    - section: Fundamentos
+      contents:
+      - href: fundamentos/ia-aprendizaje.qmd
+        text: IA y aprendizaje de máquina
+      - href: fundamentos/sistema-ml.qmd
+        text: Anatomía de un sistema de ML
+      - href: fundamentos/evaluacion-clasificadores.qmd
+        text: Evaluación de clasificadores
+    - section: Datos y generalización
+      contents:
+      - href: datos/representacion.qmd
+        text: Representación de datos
+      - href: datos/generalizacion.qmd
+        text: Generalización y selección de modelos
+    - section: Aprendizaje supervisado
+      contents:
+      - href: supervisado/arboles-decision.qmd
+        text: Árboles de decisión
+      - href: supervisado/svm-margen.qmd
+        text: SVM y máximo margen
+      - href: supervisado/svm-kernels.qmd
+        text: Kernels y fronteras no lineales
+      - href: supervisado/svm-multiclase.qmd
+        text: SVM multiclase y Exemplar-SVM
+    - section: Aprendizaje por refuerzo
+      contents:
+      - href: refuerzo/fundamentos.qmd
+        text: Agentes, recompensas y políticas
+    title: Inteligencia Artificial I
   page-footer:
-    left: "Inteligencia Artificial I · OpenStudy"
-    right: "Sitio de estudio construido con Quarto"
-
+    left: UStudyOpen · Proyecto educativo independiente
+    right: 'Autoría: colaboradores del curso · [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)'
+  favicon: _extensions/ustudyopen-design/assets/favicon.svg
+  navbar:
+    title: UStudyOpen
+    pinned: true
+    background: light
+    collapse-below: lg
+    left:
+    - text: Inteligencia Artificial I
+      href: index.qmd
+    - text: Inicio
+      href: index.qmd
 format:
-  html:
-    theme:
-      - cosmo
-      - theme.scss
+  ustudyopen-design-html:
     css:
-      - styles/base.css
-      - styles/layout.css
-      - styles/components.css
-      - styles/concepts.css
-      - styles/responsive.css
-      - assets/css/visualizaciones.css
-    toc: true
-    toc-depth: 3
+    - styles/compatibility.css
+    - assets/css/visualizaciones.css
     number-sections: false
-    code-copy: true
     code-overflow: wrap
-    html-math-method: mathjax
     link-external-newwindow: true
-    smooth-scroll: true
+metadata-files:
+- course.yml
+quarto-required: =1.10.18
+brand:
+  light: _extensions/ustudyopen-design/brand/_brand.yml
+  dark: _extensions/ustudyopen-design/brand/_brand-dark.yml

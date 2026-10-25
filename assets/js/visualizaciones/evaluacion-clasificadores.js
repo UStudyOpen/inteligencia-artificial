@@ -200,6 +200,9 @@
 
   function createMatrix() {
     const region = htmlEl("div", "ml-eval__matrix-wrap");
+    region.tabIndex = 0;
+    region.setAttribute("role", "region");
+    region.setAttribute("aria-label", "Matriz de confusión; desplazamiento horizontal disponible");
     const table = htmlEl("table", "ml-eval__matrix");
     const caption = htmlEl(
       "caption",

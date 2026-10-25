@@ -1,6 +1,8 @@
 ---
 title: "Árboles de decisión"
 description: "Inferencia, construcción recursiva, entropía, ganancia de información y control del sobreajuste."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

@@ -1,6 +1,8 @@
 ---
 title: "Fundamentos de aprendizaje por refuerzo"
 description: "Agente, entorno, estados, observaciones, acciones, recompensas, MDP, retorno y política."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

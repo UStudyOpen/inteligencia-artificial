@@ -1,0 +1,176 @@
+{
+  "course": {
+    "schema": 1,
+    "slug": "inteligencia-artificial",
+    "name": "Inteligencia Artificial I",
+    "reference_code": null,
+    "independent": true,
+    "status": "en-desarrollo",
+    "authorship": "Colaboradores del curso; identificación individual pendiente de confirmar",
+    "license": "CC BY-NC 4.0",
+    "first_page": "fundamentos/ia-aprendizaje.qmd",
+    "objectives": [
+      "Identificar los componentes de un sistema de aprendizaje de máquina.",
+      "Relacionar representación, generalización y evaluación de modelos.",
+      "Comprender árboles de decisión, máquinas de vectores de soporte y fundamentos de aprendizaje por refuerzo."
+    ],
+    "units": [
+      {
+        "section": "Fundamentos",
+        "contents": [
+          {
+            "href": "fundamentos/ia-aprendizaje.qmd",
+            "text": "IA y aprendizaje de máquina"
+          },
+          {
+            "href": "fundamentos/sistema-ml.qmd",
+            "text": "Anatomía de un sistema de ML"
+          },
+          {
+            "href": "fundamentos/evaluacion-clasificadores.qmd",
+            "text": "Evaluación de clasificadores"
+          }
+        ]
+      },
+      {
+        "section": "Datos y generalización",
+        "contents": [
+          {
+            "href": "datos/representacion.qmd",
+            "text": "Representación de datos"
+          },
+          {
+            "href": "datos/generalizacion.qmd",
+            "text": "Generalización y selección de modelos"
+          }
+        ]
+      },
+      {
+        "section": "Aprendizaje supervisado",
+        "contents": [
+          {
+            "href": "supervisado/arboles-decision.qmd",
+            "text": "Árboles de decisión"
+          },
+          {
+            "href": "supervisado/svm-margen.qmd",
+            "text": "SVM y máximo margen"
+          },
+          {
+            "href": "supervisado/svm-kernels.qmd",
+            "text": "Kernels y fronteras no lineales"
+          },
+          {
+            "href": "supervisado/svm-multiclase.qmd",
+            "text": "SVM multiclase y Exemplar-SVM"
+          }
+        ]
+      },
+      {
+        "section": "Aprendizaje por refuerzo",
+        "contents": [
+          {
+            "href": "refuerzo/fundamentos.qmd",
+            "text": "Agentes, recompensas y políticas"
+          }
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "path": "datos/generalizacion.qmd",
+        "title": "Generalización y selección de modelos",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "datos/representacion.qmd",
+        "title": "Representación de datos",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "fundamentos/evaluacion-clasificadores.qmd",
+        "title": "Evaluación de clasificadores",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "fundamentos/ia-aprendizaje.qmd",
+        "title": "Inteligencia artificial y aprendizaje de máquina",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "fundamentos/sistema-ml.qmd",
+        "title": "Anatomía de un sistema de aprendizaje de máquina",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "index.qmd",
+        "title": "Inteligencia Artificial I",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "refuerzo/fundamentos.qmd",
+        "title": "Fundamentos de aprendizaje por refuerzo",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "supervisado/arboles-decision.qmd",
+        "title": "Árboles de decisión",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "supervisado/svm-kernels.qmd",
+        "title": "Kernels y fronteras no lineales",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "supervisado/svm-margen.qmd",
+        "title": "Máquinas de vectores de soporte y máximo margen",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      },
+      {
+        "path": "supervisado/svm-multiclase.qmd",
+        "title": "SVM multiclase y Exemplar-SVM",
+        "required": true,
+        "status": "en-desarrollo",
+        "reviewed": false
+      }
+    ],
+    "planned": [
+      {
+        "title": "Aprendizaje profundo",
+        "status": "proximamente",
+        "required": false
+      },
+      {
+        "title": "Programación lógica",
+        "status": "proximamente",
+        "required": false
+      },
+      {
+        "title": "Búsqueda",
+        "status": "proximamente",
+        "required": false
+      }
+    ]
+  }
+}
