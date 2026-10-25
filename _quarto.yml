@@ -68,7 +68,7 @@ website:
     title: Inteligencia Artificial I
   page-footer:
     left: UStudyOpen · Proyecto educativo independiente
-    right: 'Autoría: colaboradores del curso · [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)'
+    right: 'ngulloa · Contenido original [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) · Software compartido MIT'
   favicon: _extensions/ustudyopen-design/assets/favicon.svg
   navbar:
     title: UStudyOpen
