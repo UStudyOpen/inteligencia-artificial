@@ -1,5 +1,7 @@
 ---
 title: "Inteligencia artificial y aprendizaje de máquina"
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

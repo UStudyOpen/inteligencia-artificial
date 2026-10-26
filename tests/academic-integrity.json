@@ -1,0 +1,76 @@
+{
+  "origin": "2026-10-25 working-tree audit; update only with academic review",
+  "files": {
+    "datos/generalizacion.qmd": {
+      "kind": "lesson-body",
+      "sha256": "1d28e918ae9cbd2ece4e16bffabdebeff0931a9d8831b8caa131124b3b0ce71b"
+    },
+    "datos/representacion.qmd": {
+      "kind": "lesson-body",
+      "sha256": "c7cb9e1b9364a1f665febb1ad6654ebabd8af9c32d4c90cc4542419d6e9ca565"
+    },
+    "fundamentos/evaluacion-clasificadores.qmd": {
+      "kind": "lesson-body",
+      "sha256": "2b6e3f6ad0c03187ae4659dbd280a2243e003b2216c36f59751b29c90adb3f3a"
+    },
+    "fundamentos/ia-aprendizaje.qmd": {
+      "kind": "lesson-body",
+      "sha256": "783cf7ace6b5d25a946b9498127253f355f0a101b3c249f3a01fee25204cfb7c"
+    },
+    "fundamentos/sistema-ml.qmd": {
+      "kind": "lesson-body",
+      "sha256": "f55f8b496c8753c415cc1af4fb3eaa4c25a1d30ff9af6babe9a9bb8296b33d2c"
+    },
+    "refuerzo/fundamentos.qmd": {
+      "kind": "lesson-body",
+      "sha256": "447f769b76b57506aa237c70e46cea40f1c0cc3b9f56ca21b2aae5099820426e"
+    },
+    "supervisado/arboles-decision.qmd": {
+      "kind": "lesson-body",
+      "sha256": "fec514866a44679c556cdaf6b5c27d62eab0461e512b8c701268d74d3ec0821d"
+    },
+    "supervisado/svm-kernels.qmd": {
+      "kind": "lesson-body",
+      "sha256": "1521f6857abaff8a9e8f1346cb65be53bb7168bf2d932223dfea5ba4320da265"
+    },
+    "supervisado/svm-margen.qmd": {
+      "kind": "lesson-body",
+      "sha256": "2fb8b93b0a8bbde62a7793e1e05d5eac070ed1b610c9f293c0df36ff6104b4da"
+    },
+    "supervisado/svm-multiclase.qmd": {
+      "kind": "lesson-body",
+      "sha256": "454ea02dae19ca77c4a33387f3774e0c316a769e73649b9cff5ee7faa3c29c14"
+    },
+    "assets/js/visualizaciones/aprendizaje-supervisado.js": {
+      "kind": "bytes",
+      "sha256": "d2cf1d65270e3b187a2a485f0ec9dbe4911d1c0a51341a08998c1ca257624fd6",
+      "presentation_replacements": [
+        {
+          "old": "role: \"img\",",
+          "new": "role: \"group\",",
+          "count": 2
+        },
+        {
+          "old": "marker.setAttribute(\"aria-valuetext\", `x uno ${state.x.toFixed(1)}, x dos ${state.y.toFixed(1)}, clase ${predicted}`);",
+          "new": "marker.setAttribute(\"aria-label\", `Nuevo ejemplo x estrella. Usa las flechas para moverlo. x uno ${state.x.toFixed(1)}, x dos ${state.y.toFixed(1)}, clase ${predicted}`);",
+          "count": 1
+        }
+      ]
+    },
+    "assets/js/visualizaciones/evaluacion-clasificadores.js": {
+      "kind": "bytes",
+      "sha256": "67dc9b52ff79f254fa2bba54a08f7ef9d1544ce281a74143bbc11a22b3ce3d43",
+      "presentation_replacements": [
+        {
+          "old": "    const region = htmlEl(\"div\", \"ml-eval__matrix-wrap\");",
+          "new": "    const region = htmlEl(\"div\", \"ml-eval__matrix-wrap\");\n    region.tabIndex = 0;\n    region.setAttribute(\"role\", \"region\");\n    region.setAttribute(\"aria-label\", \"Matriz de confusión; desplazamiento horizontal disponible\");",
+          "count": 1
+        }
+      ]
+    },
+    "references.bib": {
+      "kind": "bytes",
+      "sha256": "8b0934e4090337024859b92ccaff682e2f66cda5df50231d072bad96abd89795"
+    }
+  }
+}

@@ -1,6 +1,8 @@
 ---
 title: "Generalización y selección de modelos"
 description: "Entrenamiento, validación, prueba, sesgo-varianza, sobreajuste y validación cruzada."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

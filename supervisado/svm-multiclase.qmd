@@ -1,6 +1,8 @@
 ---
 title: "SVM multiclase y Exemplar-SVM"
 description: "One-vs-rest, one-vs-one, aprendizaje conjunto multiclase, k-NN y clasificadores por ejemplar."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

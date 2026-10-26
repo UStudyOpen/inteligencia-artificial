@@ -2,14 +2,18 @@
 title: "Inteligencia Artificial I"
 description: "Material de estudio sobre fundamentos de aprendizaje de máquina, generalización, árboles de decisión, máquinas de vectores de soporte y aprendizaje por refuerzo."
 toc: false
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
-:::: {.hero-ai}
+:::: {.uso-hero}
+[UStudyOpen · Recursos universitarios abiertos]{.uso-course-identity}
+
 ## De los datos a las decisiones inteligentes
 
-OpenStudy presenta una ruta autocontenida por los fundamentos de la **inteligencia artificial** cubiertos hasta ahora: aprendizaje inductivo, representación de datos, generalización, árboles de decisión, máquinas de vectores de soporte y una introducción al aprendizaje por refuerzo.
+UStudyOpen presenta una ruta autocontenida por los fundamentos de la **inteligencia artificial** cubiertos hasta ahora: aprendizaje inductivo, representación de datos, generalización, árboles de decisión, máquinas de vectores de soporte y una introducción al aprendizaje por refuerzo.
 
-::: {.hero-actions}
+::: {.uso-actions}
 [Comenzar a estudiar](fundamentos/ia-aprendizaje.qmd){.btn .btn-primary}
 [Explorar los temas](#mapa-de-contenidos){.btn .btn-outline-primary}
 :::
@@ -17,10 +21,18 @@ OpenStudy presenta una ruta autocontenida por los fundamentos de la **inteligenc
 Cada página combina intuición, formulación matemática, procedimientos, ejemplos breves y advertencias. El orden sugerido va desde la estructura general de un sistema de aprendizaje hasta modelos supervisados y agentes que aprenden mediante recompensas.
 ::::
 
+## Objetivos generales
+
+- Identificar los componentes de un sistema de aprendizaje de máquina.
+- Relacionar representación, generalización y evaluación de modelos.
+- Comprender árboles de decisión, máquinas de vectores de soporte y fundamentos de aprendizaje por refuerzo.
+
 ## Mapa de contenidos
 
 :::: {.topic-grid}
 ::: {.topic-card}
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
+
 ### Fundamentos
 
 IA clásica y aprendizaje inductivo; tarea, experiencia, rendimiento, hipótesis, pérdida, regularización y búsqueda.
@@ -29,6 +41,8 @@ IA clásica y aprendizaje inductivo; tarea, experiencia, rendimiento, hipótesis
 :::
 
 ::: {.topic-card}
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
+
 ### Datos y generalización
 
 Vectores de características, etiquetas, particiones de datos, sesgo-varianza, sobreajuste y validación cruzada.
@@ -37,6 +51,8 @@ Vectores de características, etiquetas, particiones de datos, sesgo-varianza, s
 :::
 
 ::: {.topic-card}
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
+
 ### Aprendizaje supervisado
 
 Árboles de decisión, entropía, ganancia de información, SVM de margen duro y suave, kernels y extensiones multiclase.
@@ -45,6 +61,8 @@ Vectores de características, etiquetas, particiones de datos, sesgo-varianza, s
 :::
 
 ::: {.topic-card}
+[En desarrollo]{.uso-status .uso-status--en-desarrollo}
+
 ### Aprendizaje por refuerzo
 
 Agente, entorno, estados, acciones, recompensas, transición, retorno, política y exploración-explotación.
@@ -73,3 +91,12 @@ El sitio se limita deliberadamente a los temas desarrollados en el material disp
 - En aprendizaje supervisado, un ejemplo se denota por $(x_i,y_i)$, con características $x_i$ y etiqueta $y_i$.
 - Los conjuntos de entrenamiento, validación y prueba cumplen funciones diferentes; no se intercambian después de observar resultados.
 - Las referencias bibliográficas respaldan los conceptos, pero la exposición y la notación se mantienen autocontenidas. [@mitchell1997; @russell2010; @bishop2006]
+
+
+## Proyecto, autoría y licencia
+
+UStudyOpen es un proyecto educativo independiente. Este material no implica afiliación ni respaldo oficial de una universidad.
+
+El contenido académico original autorizado se ofrece bajo [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), con atribución pública a ngulloa. La extensión y las herramientas comunes utilizan MIT; los recursos de terceros conservan sus condiciones. Véanse el alcance y los textos completos en el enlace «Licencias y avisos» al pie de esta página.
+
+El curso se encuentra **en desarrollo**. La compilación y las pruebas técnicas no sustituyen la revisión académica; ninguna página se ha marcado automáticamente como revisada.

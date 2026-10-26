@@ -1,6 +1,8 @@
 ---
 title: "Evaluación de clasificadores"
 description: "Errores de clasificación, matriz de confusión, accuracy, precision, recall, F1 y comparación de modelos."
+ustudy-status: en-desarrollo
+ustudy-reviewed: false
 ---
 
 <div class="concept-section">

@@ -4,5 +4,11 @@
 
 **/*.quarto_ipynb
 
-AGENTS.md
 
+/artifacts/
+/node_modules/
+__pycache__/
+.env
+.env.*
+*.pem
+*.key

@@ -156,7 +156,7 @@
     const svg = svgEl("svg", {
       class: "ml-supervised__plot",
       viewBox: `0 0 ${width} ${height}`,
-      role: "img",
+      role: "group",
       "aria-label": "Clasificación bidimensional con dos clases, frontera de decisión y un ejemplo nuevo interactivo"
     });
 
@@ -250,7 +250,7 @@
       marker.setAttribute("transform", `translate(${xScale(state.x)} ${yScale(state.y)})`);
       const predicted = state.x >= boundary(state.y) ? "c₂" : "c₁";
       resultValue.textContent = `ŷ* = ${predicted}`;
-      marker.setAttribute("aria-valuetext", `x uno ${state.x.toFixed(1)}, x dos ${state.y.toFixed(1)}, clase ${predicted}`);
+      marker.setAttribute("aria-label", `Nuevo ejemplo x estrella. Usa las flechas para moverlo. x uno ${state.x.toFixed(1)}, x dos ${state.y.toFixed(1)}, clase ${predicted}`);
       if (announce) result.dataset.changed = String(Date.now());
     }
 
@@ -314,7 +314,7 @@
     const svg = svgEl("svg", {
       class: "ml-supervised__plot",
       viewBox: `0 0 ${width} ${height}`,
-      role: "img",
+      role: "group",
       "aria-label": "Regresión unidimensional con datos observados, función aprendida y una predicción interactiva"
     });
 
